@@ -1,4 +1,4 @@
-#더하기와 빼기 함수
+#기본계산기
 def add(a, b):
   return a+b
 def subtract(a, b):
