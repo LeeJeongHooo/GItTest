@@ -19,3 +19,9 @@ def getSum_ver2(n):
   for i in range(1, n+1):
       sum = sum + i
   return sum   
+
+def fibonacci(n):
+  if n == 1:
+    return n
+  else: 
+    return n * fibonacci(n-1) 
